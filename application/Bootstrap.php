@@ -20,3 +20,7 @@ function deleteGlossary($id) {
 function editGlossary($id) {
 	$glossary->edit();
 }
+
+function meow(){
+	echo 'purrr';
+}

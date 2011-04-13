@@ -4,3 +4,7 @@
 function foo($bar) {
 	echo $bar;
 }
+
+function getGlossary($id) {
+	return $glossary;
+}

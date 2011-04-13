@@ -12,3 +12,7 @@ function getGlossary($id) {
 function showGlossary() {
 	echo $glossary;
 }
+
+function deleteGlossary($id) {
+	$glossary->Delete();
+}

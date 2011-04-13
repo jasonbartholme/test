@@ -8,3 +8,7 @@ function foo($bar) {
 function getGlossary($id) {
 	return $glossary;
 }
+
+function showGlossary() {
+	echo $glossary;
+}

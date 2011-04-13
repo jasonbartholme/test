@@ -16,3 +16,7 @@ function showGlossary() {
 function deleteGlossary($id) {
 	$glossary->Delete();
 }
+
+function editGlossary($id) {
+	$glossary->edit();
+}
